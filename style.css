@@ -340,6 +340,55 @@ footer p {
   }
 }
 
+@media only screen and (max-width: 576px) {
+  #header,
+  #footer {
+    padding: 8px 16px;
+  }
+
+  nav {
+    display: block;
+    margin-left: 5rem;
+  }
+
+  section {
+    padding: 32px 8px;
+  }
+
+  #landing {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #landing > div {
+    width: 100%;
+  }
+
+  .btn {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .service-detail {
+    display: block;
+  }
+
+  .service-header > a {
+    display: none;
+  }
+
+  footer p {
+    color: white;
+    width: 85%;
+  }
+  .social-icon {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   #haeder,
   #footer {
